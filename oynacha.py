@@ -1,0 +1,11 @@
+from tkinter import *
+oyna=Tk()
+oyna.title("dasturcha")
+oyna.geometry("500x500")
+natija=Label(text="Hammaga salom", bg="red")
+natija.place(x=10,y=10,width=200,height=20)
+yoz=Entry()
+yoz.place(x=10,y=40,width=200,height=20)
+tugma=Button(text="Hisobla")
+tugma.place(x=10,y=60,width=200,height=20)
+oyna.mainloop()
